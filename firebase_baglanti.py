@@ -3,10 +3,10 @@ import os.path
 import time
 
 config = {
-  "apiKey": "AIzaSyA3ABg4PSzJT--X2UZO5gtxb-MKXviKyEQ",
-  "authDomain": "para-tanima.firebaseapp.com",
-  "databaseURL": "https://para-tanima-default-rtdb.europe-west1.firebasedatabase.app",
-  "storageBucket": "para-tanima.appspot.com"
+  "apiKey": "API_KEY",
+  "authDomain": "HOST_NAME.firebaseapp.com",
+  "databaseURL": "https://HOST_NAME-default-rtdb.europe-west1.firebasedatabase.app",
+  "storageBucket": "HOST_NAME.appspot.com"
 }
 
 
@@ -27,5 +27,5 @@ def resim_indir(path):
   storage.child("images/"+path+"/kare_foto").download(filename="indirilenler/kare.png")
   print("Resimler İndirildi.")
 
-resim_indir("1348")
+#resim_indir("1348")
 
